@@ -30,13 +30,17 @@ namespace Lab04_TicTacToe.Classes
 		/// <returns>Winner</returns>
 		public Player Play(Player playerOne, Player playerTwo)
 		{
-		
-			
-			//for (int i = 0; i < 9; i++)
-			//{
-				playerOne.TakeTurn(Board);
+			int turnCounter = 0;
 
-            //}
+			while (turnCounter < 9)
+            {
+				Player whosTurn = NextPlayer();
+				whosTurn.TakeTurn(Board);
+				Board.DisplayBoard();
+			}
+		
+				
+
 			//TODO: Complete this method and utilize the rest of the class structure to play the game.
 
 			/*
