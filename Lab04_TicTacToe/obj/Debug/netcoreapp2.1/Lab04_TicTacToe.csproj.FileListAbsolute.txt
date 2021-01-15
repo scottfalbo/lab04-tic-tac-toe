@@ -1,0 +1,12 @@
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\obj\Debug\netcoreapp2.1\Lab04_TicTacToe.csprojAssemblyReference.cache
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\obj\Debug\netcoreapp2.1\Lab04_TicTacToe.AssemblyInfoInputs.cache
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\obj\Debug\netcoreapp2.1\Lab04_TicTacToe.AssemblyInfo.cs
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\obj\Debug\netcoreapp2.1\Lab04_TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\bin\Debug\netcoreapp2.1\Lab04_TicTacToe.deps.json
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\bin\Debug\netcoreapp2.1\Lab04_TicTacToe.runtimeconfig.json
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\bin\Debug\netcoreapp2.1\Lab04_TicTacToe.runtimeconfig.dev.json
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\bin\Debug\netcoreapp2.1\Lab04_TicTacToe.dll
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\bin\Debug\netcoreapp2.1\Lab04_TicTacToe.pdb
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\obj\Debug\netcoreapp2.1\Lab04_TicTacToe.dll
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\obj\Debug\netcoreapp2.1\Lab04_TicTacToe.pdb
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04_TicTacToe\obj\Debug\netcoreapp2.1\Lab04_TicTacToe.genruntimeconfig.cache
