@@ -22,6 +22,11 @@ namespace Lab04_TicTacToe
 
             Player winner = newGame.Play(playerOne, playerTwo);
 
+            if (winner.Name == "draw")
+                Console.WriteLine("It's a draw");
+            else
+                Console.WriteLine($"{winner.Marker} wins the game!, Congrats {winner.Name}");
+
         }
         public static Player CreatePlayer(int playerNumber)
         {
