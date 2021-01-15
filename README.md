@@ -1,5 +1,5 @@
 # Lab04: Tic Tac Toe
-*Authors: Scott Falbo* <br>Version: 1.0.0 
+*Authors: Scott Falbo, Krystian Francuz-Harris, Ameilia Valdes, and Michael Falk* <br>Version: 1.0.0 
 
 ## Overview
 A two player terminal Tic Tac Toe game. <br>
@@ -40,5 +40,4 @@ A two player terminal Tic Tac Toe game. <br>
   + The `StartGame` function is returned the results and `Writes` an according message.
 
 ## Attribution
-+ First part done in class lab with:
   + Krystian Francuz-Harris, Ameilia Valdes, and Michael Falk
