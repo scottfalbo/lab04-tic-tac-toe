@@ -23,21 +23,29 @@ namespace Lab04TicTacToeTests
             Assert.True(isWinner);
         }
 
-        /*
+        /// <summary>
+        /// Make sure players are swtiching turns
+        /// </summary>
         [Fact]
         public void Switch_Between_Players()
         {
-            Player playerOne = Program.CreatePlayer(1);
-            Player playerTwo = Program.CreatePlayer(2);
+            // create two players without using the CreatePlayer method to avoid ReadLine
+            Player playerOne = new Player()
+            {
+                IsTurn = true
+            };
+            Player playerTwo = new Player()
+            {
+                IsTurn = false
+            };
 
             Game testGame = new Game(playerOne, playerTwo);
-            testGame.SwitchPlayer();
 
-            testGame.PlayerOne.IsTurn = true;
+            testGame.SwitchPlayer();
 
             Assert.True(testGame.PlayerTwo.IsTurn);
         }
-        */
+        
 
         /// <summary>
         /// Given a position test that the method is returning the proper matrix coords
