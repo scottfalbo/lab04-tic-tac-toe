@@ -1,0 +1,4 @@
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04TicTacToeTests\obj\Debug\netcoreapp3.1\Lab04TicTacToeTests.csprojAssemblyReference.cache
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04TicTacToeTests\obj\Debug\netcoreapp3.1\Lab04TicTacToeTests.AssemblyInfoInputs.cache
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04TicTacToeTests\obj\Debug\netcoreapp3.1\Lab04TicTacToeTests.AssemblyInfo.cs
+C:\Users\scott\codefellows\lab04-tic-tac-toe\Lab04TicTacToeTests\obj\Debug\netcoreapp3.1\Lab04TicTacToeTests.csproj.CoreCompileInputs.cache
