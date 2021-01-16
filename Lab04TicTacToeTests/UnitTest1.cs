@@ -23,7 +23,7 @@ namespace Lab04TicTacToeTests
             Assert.True(isWinner);
         }
 
-
+        /*
         [Fact]
         public void Switch_Between_Players()
         {
@@ -36,6 +36,25 @@ namespace Lab04TicTacToeTests
             testGame.PlayerOne.IsTurn = true;
 
             Assert.True(testGame.PlayerTwo.IsTurn);
+        }
+        */
+
+        /// <summary>
+        /// Given a position test that the method is returning the proper matrix coords
+        /// </summary>
+        /// <param name="position"></param>
+        /// <param name="expectedCoords"></param>
+        [Theory]
+        [InlineData(1, new int[] { 0, 0 })]
+        [InlineData(3, new int[] { 0, 2 })]
+        [InlineData(5, new int[] { 1, 1 })]
+        [InlineData(7, new int[] { 2, 0 })]
+        public void Input_Position_Equals_Correct_Coords(int position, int[] expectedCoords)
+        {
+            Position result = Player.PositionForNumber(position);
+            int[] resultToCoords = new int[] { result.Row, result.Column };
+            
+            Assert.Equal(expectedCoords, resultToCoords);
         }
     }
 }
