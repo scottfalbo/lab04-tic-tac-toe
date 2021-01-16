@@ -15,5 +15,18 @@ namespace Lab04TicTacToeTests
             bool isWinner = Game.CheckForWinner(testBoard);
             Assert.True(isWinner);
         }
+
+        [Fact]
+        public void Switch_Between_Players()
+        {
+            Player playerOne = Program.CreatePlayer(1);
+            Player playerTwo = Program.CreatePlayer(2);
+            playerOne.IsTurn = true;
+
+            Game testGame = new Game(playerOne, playerTwo);
+            testGame.SwitchPlayer();
+
+            Assert.True(playerTwo.IsTurn);
+        }
     }
 }

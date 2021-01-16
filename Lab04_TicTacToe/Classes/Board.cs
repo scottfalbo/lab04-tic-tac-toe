@@ -17,7 +17,6 @@ namespace Lab04_TicTacToe.Classes
 			{"7", "8", "9"},
 		};
 
-
 		public static void DisplayBoard()
 		{
 
@@ -36,5 +35,3 @@ namespace Lab04_TicTacToe.Classes
 		}
 	}
 }
-
-// string newRow = string.Join(" | ", GameBoard[i]);

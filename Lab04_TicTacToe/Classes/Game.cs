@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Lab04_TicTacToe.Classes
 {
-	class Game
+	public class Game
 	{
-		public Player PlayerOne { get; set; }
+		public  Player PlayerOne { get; set; }
 		public Player PlayerTwo { get; set; }
 		public Player Winner { get; set; }
 		public Board Board { get; set; }
@@ -60,7 +60,7 @@ namespace Lab04_TicTacToe.Classes
 		/// </summary>
 		/// <param name="board">current state of the board</param>
 		/// <returns>if winner exists</returns>
-		public bool CheckForWinner(Board board)
+		public static bool CheckForWinner(Board board)
 		{
 			int[][] winners = new int[][]
 			{
