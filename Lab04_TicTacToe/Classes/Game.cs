@@ -4,14 +4,18 @@ using System.Text;
 
 namespace Lab04_TicTacToe.Classes
 {
-	class Game
+	public class Game
 	{
-		public Player PlayerOne { get; set; }
+		public  Player PlayerOne { get; set; }
 		public Player PlayerTwo { get; set; }
 		public Player Winner { get; set; }
 		public Board Board { get; set; }
 
 
+		public Game()
+		{ 
+			Board = new Board();
+		}
 		/// <summary>
 		/// Require 2 players and a board to start a game. 
 		/// </summary>
@@ -28,7 +32,7 @@ namespace Lab04_TicTacToe.Classes
 		/// Activate the Play of the game
 		/// </summary>
 		/// <returns>Winner</returns>
-		public Player Play(Player playerOne, Player playerTwo)
+		public Player Play()
 		{
 			int turnCounter = 0;
 			bool winner = false;
@@ -54,13 +58,12 @@ namespace Lab04_TicTacToe.Classes
 			return winner ? whosTurn : new Player() {Name = "draw" };
 		}
 
-
 		/// <summary>
 		/// Check if winner exists
 		/// </summary>
 		/// <param name="board">current state of the board</param>
 		/// <returns>if winner exists</returns>
-		public bool CheckForWinner(Board board)
+		public static bool CheckForWinner(Board board)
 		{
 			int[][] winners = new int[][]
 			{
@@ -95,7 +98,6 @@ namespace Lab04_TicTacToe.Classes
 			return false;
 		}
 
-
 		/// <summary>
 		/// Determine next player
 		/// </summary>
@@ -112,10 +114,7 @@ namespace Lab04_TicTacToe.Classes
 		{
 			if (PlayerOne.IsTurn)
 			{
-              
 				PlayerOne.IsTurn = false;
-
-              
 				PlayerTwo.IsTurn = true;
 			}
 			else
@@ -124,7 +123,5 @@ namespace Lab04_TicTacToe.Classes
 				PlayerTwo.IsTurn = false;
 			}
 		}
-
-
 	}
 }

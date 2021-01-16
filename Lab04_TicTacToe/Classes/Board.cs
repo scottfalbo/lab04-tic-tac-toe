@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Lab04_TicTacToe.Classes
 {
-    class Board
+    public class Board
     {
 		/// <summary>
 		/// Tic Tac Toe Gameboard states
@@ -16,7 +16,6 @@ namespace Lab04_TicTacToe.Classes
 			{"4", "5", "6"},
 			{"7", "8", "9"},
 		};
-
 
 		public static void DisplayBoard()
 		{
@@ -36,5 +35,3 @@ namespace Lab04_TicTacToe.Classes
 		}
 	}
 }
-
-// string newRow = string.Join(" | ", GameBoard[i]);
