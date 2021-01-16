@@ -18,7 +18,7 @@ namespace Lab04_TicTacToe
             playerOne.IsTurn = true;
             Game newGame = MakeGame(playerOne, playerTwo);
 
-            Player winner = newGame.Play(playerOne, playerTwo);
+            Player winner = newGame.Play();
 
             if (winner.Name == "draw")
                 Console.WriteLine("It's a draw");
